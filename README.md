@@ -6,15 +6,38 @@ I build production-grade AI systems — multimodal transformers, RAG pipelines, 
 
 ---
 
+## Experience
+
+**AI Engineer — Scale AI** *(Jan 2025 – Present)*
+
+- Migrated Llama-3.3-70B from TGI to vLLM on H100 clusters; applied AWQ INT4 quantization (140GB → 35GB VRAM), delivering **4.1× throughput** and **$290K/month** in infrastructure savings
+- Engineered a multi-tenant LLMOps telemetry stack on AWS EKS with deterministic cost-per-token attribution; reduced GPU waste by **36%** across thousands of instances
+- Scaled a Hybrid RAG system on Vespa across 10M+ documents (BGE-M3 + Cross-Encoder reranking); lifted Faithfulness from 0.74 → **0.93**, eliminating hallucinations in production
+- Boosted Llama-3 reasoning accuracy by **22%** via QLoRA fine-tuning with RLVR; deployed on SageMaker with W&B drift monitoring
+- Architected OpenTelemetry-based telemetry for SGP, correlating reasoning traces with NVIDIA DCGM signals to surface silent reasoning loops
+
+**Machine Learning Engineer — Paytm** *(Jan 2021 – Aug 2023)*
+
+- Built a real-time UPI fraud detection engine (XGBoost) handling **2,000+ TPS** with end-to-end scoring latency under **300ms**; served 30M+ users
+- Developed credit risk models for BNPL (LightGBM); increased loan approval rates by **15%** while keeping NPA below 5%
+- Fine-tuned BERT for intent classification across 50+ support categories; automated **25%** of routine wallet queries
+- Reduced model iteration cycles by **40%** by engineering end-to-end ML pipelines with Apache Airflow and MLflow
+
+---
+
 ## Tech Stack
 
 **Core** — Python · FastAPI · PyTorch · HuggingFace Transformers
 
-**LLMs & RAG** — LangChain · LoRA/PEFT · ChromaDB · FAISS · OpenAI · Anthropic · DeepSeek
+**LLMs & Inference** — vLLM · TensorRT-LLM · AWQ INT4 · EAGLE-3 Speculative Decoding · LoRA/QLoRA · Unsloth · DeepSpeed
 
-**MLOps & Cloud** — AWS SageMaker · MLflow · DVC · Docker · GitHub Actions · Prometheus · WandB
+**RAG & Retrieval** — LangChain · LlamaIndex · LangGraph · Vespa · ChromaDB · FAISS · Milvus · BGE-M3 · Cohere Reranking
 
-**Frontend** — React · Streamlit · Monaco Editor
+**MLOps & Cloud** — AWS (SageMaker · EKS · Bedrock · Lambda) · MLflow · DVC · Docker · Kubernetes · Terraform · GitHub Actions
+
+**Observability** — OpenTelemetry · NVIDIA DCGM · Langfuse · Prometheus · Grafana · Datadog · W&B
+
+**ML** — XGBoost · LightGBM · BERT · SHAP · SMOTE · Anomaly Detection
 
 ---
 
@@ -37,6 +60,12 @@ Production-ready 30-day readmission risk classifier (XGBoost) with FastAPI servi
 
 ---
 
+## Education
+
+M.S. Data Science & Analytics — New England College, Henniker, NH
+
+---
+
 ## Contact
 
-g.d.hruthik2001@gmail.com · Open to AI/ML engineering roles
+hruthikgd07@gmail.com · [LinkedIn](https://linkedin.com/in/hruthik07) · Open to senior AI/ML engineering roles
