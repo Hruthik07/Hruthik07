@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 300" width="1200" height="300" role="img" aria-label="Gali Dileep Hruthik — AI/ML Engineer">
+  <defs>
+    <style>
+      .name  { font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; font-size: 62px; font-weight: 700; letter-spacing: -1.4px; fill: #14161a; }
+      .role  { font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; font-size: 25px; font-weight: 400; fill: #4a5058; }
+      .meta  { font-family: ui-monospace, "SF Mono", Menlo, Consolas, monospace; font-size: 16px; font-weight: 400; fill: #7b828c; letter-spacing: 0.6px; }
+      .kicker{ font-family: ui-monospace, "SF Mono", Menlo, Consolas, monospace; font-size: 14px; font-weight: 500; fill: #3f5bb8; letter-spacing: 3.4px; }
+    </style>
+  </defs>
+
+  <rect x="72" y="62" width="3" height="176" fill="#3f5bb8"/>
+
+  <text class="kicker" x="104" y="80">BOSTON, MA</text>
+  <text class="name"   x="102" y="146">Gali Dileep Hruthik</text>
+  <text class="role"   x="104" y="190">AI/ML Engineer — Generative AI, Multi-Agent Systems, MLOps</text>
+
+  <line x1="104" y1="216" x2="360" y2="216" stroke="#d9dde3" stroke-width="1"/>
+
+  <text class="meta" x="104" y="248">LLM systems that survive contact with production</text>
+
+  <g fill="#d9dde3">
+    <circle cx="1000" cy="96"  r="3"/><circle cx="1040" cy="96"  r="3"/><circle cx="1080" cy="96"  r="3"/><circle cx="1120" cy="96" r="3"/>
+    <circle cx="1000" cy="136" r="3"/><circle cx="1040" cy="136" r="3"/><circle cx="1080" cy="136" r="3"/><circle cx="1120" cy="136" r="3"/>
+    <circle cx="1000" cy="176" r="3"/><circle cx="1040" cy="176" r="3"/><circle cx="1080" cy="176" r="3"/><circle cx="1120" cy="176" r="3"/>
+    <circle cx="1000" cy="216" r="3"/><circle cx="1040" cy="216" r="3"/><circle cx="1080" cy="216" r="3"/><circle cx="1120" cy="216" r="3"/>
+  </g>
+  <circle cx="1040" cy="136" r="5" fill="#3f5bb8"/>
+  <circle cx="1080" cy="176" r="5" fill="#3f5bb8"/>
+</svg>
